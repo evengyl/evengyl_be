@@ -1,0 +1,162 @@
+@font-face
+{
+	font-family: "matrix";
+	src: url('../fonts/matrix.ttf')
+}
+@font-face
+{
+	font-family: "bebas";
+	src: url('../fonts/BebasNeue.otf');
+}
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.head_sub_title {
+	display: inline;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:0;
+	text-align:center;
+}
+code
+{
+	font-size: 90%;
+	color: #FFF;
+	width:100%;
+	background-color: #000;
+	border-radius: 4px;
+	padding: 3px 15px 3px 15px;
+	padding-left: 5px;
+}
+body{
+	background-image:url('../images/bg-body.png');
+}
+.navbar-nav > li > a
+{
+	font-family: "bebas";
+	font-size:20px;
+}
+.table-child tr:first-child{
+	background:#c6c7c6;
+}
+.bar-bellow-nav{
+	height:5px;
+	background-color:#417f85;
+}
+.thumbnail-general {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 5px 5px 8px 0px #417f85;
+  -webkit-box-shadow: 5px 5px 8px 0px #417f85;
+  -o-box-shadow: 5px 5px 8px 0px #417f85;
+  box-shadow: 5px 5px 8px 0px #417f85;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#417f85, Direction=134, Strength=8);
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.subtitle{
+	font-family:"matrix";
+}
+.without-margin{
+	margin-right:0px;
+	margin-left:0px;
+}
+.without-padding{
+	padding-right:0px;
+	padding-left:0px;
+}
+.intranet_nav > ul > li > a{
+	border: solid #808080 1px;
+	color: #000;
+	display: inline-block;
+	width: 100%;
+	height:70px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	line-height:25px;
+}
+.intranet_nav > ul > li{
+	width: 100%;
+}
+.without-padding{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.without-margin{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.margin-five{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.sup-slide{
+	height:25px;
+	background-color:#d57d23;
+}
+.table-render{
+	box-shadow: 2px 2px 4px black;
+	background:#f9f9f9;
+	border-bottom:4px solid #417f85;
+}
+.table-render th{
+	background:#d7d8d7;
+}
+.content_finance{
+
+		box-shadow: 2px 2px 4px black;
+	background:#f9f9f9;
+	border-bottom:4px solid #417f85;
+}
+.annee{
+	
+
+	background-color: #D7D8D7 !important;
+	border-bottom:4px solid #417f85;
+	margin-bottom: 25px;
+}
+.annee p{
+	font-size: 17px;
+	padding:8px;
+  	line-height: 1.42857143;
+  	box-shadow: 2px 2px 4px black;
+	background:#f9f9f9;
+	border-bottom:4px solid #417f85;
+	font-weight: bold;
+}
+.mois{
+		background-color: #D7D8D7 !important;
+	margin-bottom: 25px;
+}
+.mois th{
+	font-size: 17px;
+	padding:8px;
+  	line-height: 1.42857143;  	
+	background:#f9f9f9;
+	border-bottom:4px solid #417f85;
+
+}
+.mois tr{
+	font-size: 13px;
+}
+.mois td{
+	padding:;
+}
+.salaire{
+	font-size: 17px;
+	padding:8px;
+  	line-height: 1.42857143;  	
+	background:#D7D8D7;
+}
+.content_general
+{
+	min-height:750px;
+	box-shadow: 5px 2px 8px grey;	
+	background:url('../images/logo-page.jpg')no-repeat center;
+	background-color:#EBECEC;
+	padding:15px;
+}

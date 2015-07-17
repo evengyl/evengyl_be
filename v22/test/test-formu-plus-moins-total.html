@@ -1,0 +1,41 @@
+<html>
+<head>
+	<style>
+	.test
+	{
+		width: 0;
+height: 0;
+border-style: solid;
+border-width: 16px 0 16px 10px;
+border-color: transparent transparent transparent #3070a9;
+	}
+	</style>
+</head>
+<body>
+	&lt; 
+	<form>
+		<input id='input_shopping' class="btn btn-default" name='cart_qty[art_uid]' value="0"/>
+
+		<button onclick="ajout(); return false;" type="number">+</button>
+		<button onclick="enlever(); return false;" type="number">-</button>
+	</form>
+	<div class="test"></div>
+<body>	
+	<script>
+		function ajout(){
+			var number_article = document.getElementById('input_shopping').value;
+			
+			var number_article_convert = Math.floor(number_article);
+			number_article_convert = number_article_convert+1;
+			document.getElementById('input_shopping').value = number_article_convert;
+		}
+
+		function enlever(){
+			var number_article = document.getElementById('input_shopping').value;
+			
+			var number_article_convert = Math.floor(number_article);
+			number_article_convert = number_article_convert-1;
+			document.getElementById('input_shopping').value = number_article_convert;
+		}
+	</script>
+</html>

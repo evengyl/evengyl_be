@@ -1,0 +1,1 @@
+<?php affiche_pre($version.' Créé par Baudoux Loïc , Alias Evengyl Copyright 2014'); ?>
